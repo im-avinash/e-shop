@@ -1,0 +1,35 @@
+{
+  "name": "e-shop",
+  "version": "1.0.0",
+  "description": "A single-page E-commerce web application built as part of internship assignment. This app demonstrates authentication, product listing with filters, shopping cart persistence, and CRUD APIs for items.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "nodemon bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im-avinash/e-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/im-avinash/e-shop/issues"
+  },
+  "homepage": "https://github.com/im-avinash/e-shop#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
